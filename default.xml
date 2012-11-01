@@ -3,6 +3,7 @@
 
   <remote  name="aosp"
            fetch=".." />
+
   <default revision="refs/tags/android-4.1.2_r1"
            remote="aosp"
            sync-j="4" />
@@ -302,5 +303,17 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" />
+
+  <!-- Add zedboard -->
+  <remote name="cambridgehackers" fetch="https://github.com/cambridgehackers"/>
+
+  <project path="device/xilinx/gralloc" name="device_xilinx_gralloc" 
+           remote="cambridgehackers" />
+  <project path="device/xilinx/hwcomposer" name="device_xilinx_hwcomposer"
+           remote="cambridgehackers" />
+  <project path="device/xilinx/zedboard" name="device_xilinx_zedboard"
+           remote="cambridgehackers" />
+  <project path="device/xilinx/zedmini" name="device_xilinx_zedmini"
+           remote="cambridgehackers" />
 
 </manifest>
