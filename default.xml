@@ -316,4 +316,9 @@
   <project path="device/xilinx/zedmini" name="device_xilinx_zedmini"
            remote="cambridgehackers" />
 
+  <!-- Add busybox -->
+  <remote name="busybox-android"
+          fetch="git://github.com/Gnurou/"/>
+  <project path="busybox-android" name="busybox-android" remote="busybox-android" revision="master"/>
+
 </manifest>
