@@ -306,14 +306,13 @@
 
   <!-- Add zedboard -->
   <remote name="cambridgehackers" fetch="https://github.com/cambridgehackers"/>
-  <remote name="github" fetch="https://github.com/jameyhicks"/>
 
   <project path="device/xilinx/gralloc" name="device_xilinx_gralloc" 
            remote="cambridgehackers" />
   <project path="device/xilinx/hwcomposer" name="device_xilinx_hwcomposer"
            remote="cambridgehackers" />
   <project path="device/xilinx/zedboard" name="device_xilinx_zedboard"
-           remote="github" />
+           remote="cambridgehackers" />
   <project path="device/xilinx/zedmini" name="device_xilinx_zedmini"
            remote="cambridgehackers" />
   <project path="device/xilinx/kernel" name="device_xilinx_kernel" 
