@@ -316,7 +316,7 @@
   <project path="device/xilinx/zedmini" name="device_xilinx_zedmini"
            remote="cambridgehackers" />
   <project path="device/xilinx/kernel" name="device_xilinx_kernel" 
-           remote="cambridgehackers" />
+           remote="cambridgehackers" branch="digilent-android-3.3" />
 
   <!-- Add busybox -->
   <remote name="busybox-android"
