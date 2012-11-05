@@ -308,15 +308,15 @@
   <remote name="cambridgehackers" fetch="https://github.com/cambridgehackers"/>
 
   <project path="device/xilinx/gralloc" name="device_xilinx_gralloc" 
-           remote="cambridgehackers" />
+           remote="cambridgehackers" revision="master" />
   <project path="device/xilinx/hwcomposer" name="device_xilinx_hwcomposer"
-           remote="cambridgehackers" />
+           remote="cambridgehackers" revision="master" />
   <project path="device/xilinx/zedboard" name="device_xilinx_zedboard"
-           remote="cambridgehackers" />
+           remote="cambridgehackers" revision="master" />
   <project path="device/xilinx/zedmini" name="device_xilinx_zedmini"
-           remote="cambridgehackers" />
+           remote="cambridgehackers" revision="master" />
   <project path="device/xilinx/kernel" name="device_xilinx_kernel" 
-           remote="cambridgehackers" branch="digilent-android-3.3" />
+           remote="cambridgehackers" revision="digilent-android-3.3" />
 
   <!-- Add busybox -->
   <remote name="busybox-android"
