@@ -317,6 +317,10 @@
            remote="cambridgehackers" revision="master" />
   <project path="device/xilinx/kernel" name="device_xilinx_kernel" 
            remote="cambridgehackers" revision="digilent-android-3.3" />
+  <project path="device/xylon/gralloc" name="device_xylon_gralloc" 
+           remote="cambridgehackers" revision="master" />
+  <project path="device/xylon/zynqxylon" name="device_xylon_zynqxylon" 
+           remote="cambridgehackers" revision="master" />
 
   <!-- Add busybox -->
   <remote name="busybox-android"
