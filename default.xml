@@ -470,4 +470,23 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
+  <!-- Add zedboard -->
+  <remote name="cambridgehackers" fetch="https://github.com/cambridgehackers"/>
+
+  <project path="device/xilinx/gralloc" name="device_xilinx_gralloc"
+           remote="cambridgehackers" revision="master" />
+  <project path="device/xilinx/hwcomposer" name="device_xilinx_hwcomposer"
+           remote="cambridgehackers" revision="master" />
+  <project path="device/xilinx/zedboard" name="device_xilinx_zedboard"
+           remote="cambridgehackers" revision="master" />
+  <project path="device/xilinx/zedmini" name="device_xilinx_zedmini"
+           remote="cambridgehackers" revision="master" />
+  <project path="device/xilinx/kernel" name="device_xilinx_kernel"
+           remote="cambridgehackers" revision="digilent-android-3.3" />
+
+  <!-- Add busybox -->
+  <remote name="busybox-android"
+          fetch="git://github.com/Gnurou/"/>
+  <project path="busybox-android" name="busybox-android" remote="busybox-android" revision="master"/>
+
 </manifest>
