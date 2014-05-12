@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
-  <default revision="master"
+  <default revision="android-4.4.2_r2"
            remote="aosp"
            sync-j="4" />
 
@@ -480,7 +480,7 @@
   <project path="device/xilinx/zedmini" name="device_xilinx_zedmini"
            remote="cambridgehackers" revision="android-4.4" />
   <project path="device/xilinx/kernel" name="device_xilinx_kernel"
-           remote="cambridgehackers" revision="digilent-android-3.3" />
+           remote="cambridgehackers" revision="xbsv-2014.04" />
 
   <!-- Add busybox -->
   <remote name="busybox-android"
