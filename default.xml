@@ -431,8 +431,6 @@
   <!-- Add zedboard -->
   <remote name="cambridgehackers" fetch="git://github.com/cambridgehackers/"/>
 
-  <project path="device/xilinx/gralloc" name="device_xilinx_gralloc"
-           remote="cambridgehackers" revision="android-4.4" />
   <project path="device/xilinx/zedboard" name="device_xilinx_zedboard"
            remote="cambridgehackers" revision="android-4.4" />
   <project path="device/xilinx/zedmini" name="device_xilinx_zedmini"
