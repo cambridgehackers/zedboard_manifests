@@ -436,7 +436,7 @@
            remote="cambridgehackers" revision="android-4.4" />
   <project path="device/xilinx/zedmini" name="device_xilinx_zedmini"
            remote="cambridgehackers" revision="android-4.4" />
-  <project path="device/xilinx/kernel" name="device_xilinx_kernel"
+  <project path="device/xilinx/kernel" name="linux-xlnx"
            remote="cambridgehackers" revision="xbsv-2014.04" />
 
   <!-- Add busybox -->
